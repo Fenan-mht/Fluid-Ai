@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["SF Pro Display", "sans-serif"],
+      },
+      screens: {
+        phone: "300px",
+      },
+    },
   },
   plugins: [],
 };

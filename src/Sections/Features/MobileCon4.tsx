@@ -1,0 +1,57 @@
+import background from "../../assets/Pictures/_Calendar_73.png";
+import navImg from "../../assets/Pictures/Top3.png";
+import secondDiv from "../../assets/Pictures/Restaurants.png";
+import thirdDiv from "../../assets/Pictures/Frame 1171275264.png";
+import Search from "../../assets/Pictures/Input.png";
+import longPic from "../../assets/Pictures/Frame 1171275560.png";
+import bottomNav from "../../assets/Pictures/Group 1171275340.png";
+
+const MobileCon4 = () => {
+  return (
+    <div
+      className="relative w-full h-full flex flex-col gap-2"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        maxWidth: "500px",
+      }}
+    >
+      <div className="flex flex-col gap-1 py-2">
+        <div className="px-4 sticky flex flex-row justify-between">
+          <p className="font-medium text-xs">9:41</p>
+          <div className="flex flex-row gap-2"></div>
+        </div>
+        <div className="mt-3 overflow-y-scroll flex flex-col gap-3 h-[60vh] ">
+          <div>
+            <img src={navImg} alt="Navigation" />
+          </div>
+          <div>
+            <img src={Search} alt="" />
+          </div>
+          <div>
+            <img src={secondDiv} alt="" />
+          </div>
+          <div className="flex flex-col gap-2">
+            <p>Recommended</p>
+            <div className="overflow-x-auto w-full">
+              <img className="min-w-[140%]" src={thirdDiv} alt="" />
+            </div>
+          </div>
+          <div className="flex flex-col gap-2">
+            <p>Recently Viewed</p>
+            <div>
+              <img src={longPic} alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src={bottomNav} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MobileCon4;
