@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full pt-10 px-10">
+    <div className="fixed bg-black z-[100] w-full pt-10 px-10">
       {" "}
       <div className="phone:flex sm:hidden">
         <Menu />

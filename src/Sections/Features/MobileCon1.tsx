@@ -36,7 +36,6 @@ const MobileCon1 = () => {
 
       <div className="relative h-32 overflow-hidden">
         {" "}
-        {/* Adjusted height for compactness */}
         <video
           className="absolute top-3/4 left-1/2 bg-none min-w-full min-h-full w-auto h-auto opacity-50 transform -translate-x-1/2 -translate-y-1/2"
           autoPlay

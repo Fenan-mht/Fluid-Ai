@@ -6,7 +6,7 @@ import MobileCon4 from "./MobileCon4";
 
 const Features = () => {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 mt-36">
       <div className="flex flex-col gap-4 items-center justify-center">
         <p className="font-medium text-gray-500 text-xl">Our Features</p>
 

@@ -106,6 +106,9 @@ const Waitlist = () => {
                   throw new Error("Function not implemented.");
                 }}
               />
+              <button className="bg-white text-black w-[20%] py-3 rounded-full shadow-lg shadow-white">
+                Join Waitlist
+              </button>
             </div>
           </div>
 

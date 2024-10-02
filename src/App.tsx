@@ -9,7 +9,7 @@ import Waitlist from "./Sections/Story/Waitlist";
 function App() {
   return (
     <div className="bg-black flex flex-col text-white scroll-smooth">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="mt-16">
         <Hero />
         <Features />
